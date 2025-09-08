@@ -4,121 +4,35 @@
 
 # Sistem-Pendaftaran-Fun-Run-PBO
 
-## Nama: Aliyah Azzah Sekedang
-## Kelas: A Sistem Informasi
-## NIM: 2409116021
+Nama: Aliyah Azzah Sekedang
+Kelas: A Sistem Informasi
+NIM: 2409116021
 
-import java.util.ArrayList;
-import java.util.Scanner;
-public class SistemPendaftaranFunRun {
-    // Inner class untuk menyimpan data peserta
-    static class Peserta {
-        String nama;
-        String telepon;
+## Menu Pendaftaran
+Program ini menampilkan menu utama yang berisi CRUD, yaitu tambah peserta, lihat peserta, ubah peserta, hapus peserta, dan keluar.
+<img width="638" height="221" alt="image" src="https://github.com/user-attachments/assets/7cd731c0-cbc8-445d-8196-57f867f44546" />
 
-        Peserta(String nama, String telepon) {
-            this.nama = nama;
-            this.telepon = telepon;
-        }
-    }
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-    // ArrayList daftar peserta
-    static ArrayList<Peserta> daftarPeserta = new ArrayList<>();
-    static Scanner scanner = new Scanner(System.in);
+## 1. Opsi Tambah Peserta
+Dalam opsi tambah peserta, pengguna dapat memasukkan nama peserta beserta nomor teleponnya.
+<img width="511" height="121" alt="image" src="https://github.com/user-attachments/assets/f491c324-b162-4c3f-9b2d-efc2c3ddcfaf" />
 
-    public static void main(String[] args) {
-        int pilihan;
+## 2. Opsi Lihat Peserta
+Setelah pengisian data peserta, data dapat dilihat melalui opsi 2 yaitu lihat peserta.
+<img width="570" height="86" alt="image" src="https://github.com/user-attachments/assets/24fba258-34ea-4d67-bc02-ee31c8a2ba33" />
 
-        do {
-            // Tampilkan menu
-            System.out.println("\n=== SISTEM PENDAFTARAN FUN RUN ===");
-            System.out.println("1. Tambah Peserta");
-            System.out.println("2. Lihat Peserta");
-            System.out.println("3. Ubah Peserta");
-            System.out.println("4. Hapus Peserta");
-            System.out.println("5. Keluar");
-            System.out.print("Pilih menu: ");
-            pilihan = scanner.nextInt();
-            scanner.nextLine(); // membersihkan buffer
+## 3. Opsi Ubah Peserta
+Ketika pengguna ingin mengubah atau mengedit nama maupun nomor telepon sekiranya ada salah pengisian dengan memasukkan nomor peserta pada daftar peserta, dapat dikosongkan salah satunya apabila hanya ingin mengisi salah satu saja.
+<img width="735" height="188" alt="image" src="https://github.com/user-attachments/assets/a8991954-207b-41a5-acaf-afcc359a193f" />
 
-            // Ganti switch dengan if-else
-            if (pilihan == 1) {
-                tambahPeserta();
-            } else if (pilihan == 2) {
-                lihatPeserta();
-            } else if (pilihan == 3) {
-                ubahPeserta();
-            } else if (pilihan == 4) {
-                hapusPeserta();
-            } else if (pilihan == 5) {
-                System.out.println("Thankyou and See You on Fun Run!");
-            } else {
-                System.out.println("Pilihan tidak valid, coba lagi.");
-            }
-        } while (pilihan != 5);
-    }
+## 4. Opsi Hapus Peserta
+Data peserta juga dapat dihapus hanya dengan memasukkan nomor 4 dan nomor peserta pada daftar peserta.
+<img width="556" height="133" alt="image" src="https://github.com/user-attachments/assets/4324f0d0-de2a-436f-9d2d-a3aac1c58336" />
+Untuk memastikan terhapusnya data, dapat dicek pada opsi 2 yaitu lihat peserta kembali.
+<img width="499" height="67" alt="image" src="https://github.com/user-attachments/assets/1834dd79-e023-45aa-846f-d959f115f708" />
 
-    // CRUD - Tambah
-    public static void tambahPeserta() {
-        System.out.print("Masukkan nama peserta: ");
-        String nama = scanner.nextLine();
-        System.out.print("Masukkan nomor telepon: ");
-        String telepon = scanner.nextLine();
-
-        daftarPeserta.add(new Peserta(nama, telepon));
-        System.out.println("Peserta berhasil ditambahkan!");
-    }
-
-    // CRUD - Lihat
-    public static void lihatPeserta() {
-        if (daftarPeserta.isEmpty()) {
-            System.out.println("Belum ada peserta yang terdaftar.");
-        } else {
-            System.out.println("\n=== DAFTAR PESERTA FUN RUN ===");
-            for (int i = 0; i < daftarPeserta.size(); i++) {
-                Peserta p = daftarPeserta.get(i);
-                System.out.println((i + 1) + ". Nama: " + p.nama + " | Telepon: " + p.telepon);
-            }
-        }
-    }
-
-    // CRUD - Ubah
-    public static void ubahPeserta() {
-        lihatPeserta();
-        if (!daftarPeserta.isEmpty()) {
-            System.out.print("Masukkan nomor peserta yang ingin diubah: ");
-            int index = scanner.nextInt();
-            scanner.nextLine(); // membersihkan buffer
-            if (index > 0 && index <= daftarPeserta.size()) {
-                Peserta p = daftarPeserta.get(index - 1);
-                System.out.print("Masukkan nama baru (kosongkan jika tidak diubah): ");
-                String namaBaru = scanner.nextLine();
-                System.out.print("Masukkan telepon baru (kosongkan jika tidak diubah): ");
-                String teleponBaru = scanner.nextLine();
-
-                if (!namaBaru.isEmpty()) p.nama = namaBaru;
-                if (!teleponBaru.isEmpty()) p.telepon = teleponBaru;
-
-                System.out.println("Data peserta berhasil diubah!");
-            } else {
-                System.out.println("Nomor peserta tidak valid.");
-            }
-        }
-    }
-
-    // CRUD - Hapus
-    public static void hapusPeserta() {
-        lihatPeserta();
-        if (!daftarPeserta.isEmpty()) {
-            System.out.print("Masukkan nomor peserta yang ingin dihapus: ");
-            int index = scanner.nextInt();
-            scanner.nextLine(); // membersihkan buffer
-            if (index > 0 && index <= daftarPeserta.size()) {
-                daftarPeserta.remove(index - 1);
-                System.out.println("Peserta berhasil dihapus!");
-            } else {
-                System.out.println("Nomor peserta tidak valid.");
-            }
-        }
-    }   
-}
+## 5. Opsi Keluar
+Setelah selesai melakukan pendaftaran, peserta dapat langsung keluar dari program dengan memasukkan angka 5.
+<img width="634" height="97" alt="image" src="https://github.com/user-attachments/assets/45533113-f084-4dc3-85a4-306b16b30b08" />
