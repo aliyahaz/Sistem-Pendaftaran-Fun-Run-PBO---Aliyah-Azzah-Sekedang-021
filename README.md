@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aliyahaz/Sistem-Pendaftaran-Fun-Run-PBO---Aliyah-Azzah-Sekedang-021/main/Run%20with%20Jazz%20Party%20(1200%20x%20400%20px)%20(1).png" alt="Fun Run Header" width="800"/>
+</p>
+
 # Sistem-Pendaftaran-Fun-Run-PBO
 
 ## Nama: Aliyah Azzah Sekedang
