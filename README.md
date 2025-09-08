@@ -13,9 +13,8 @@ Program ini menampilkan menu utama yang berisi CRUD, yaitu tambah peserta, lihat
 
 <img width="638" height="221" alt="image" src="https://github.com/user-attachments/assets/7cd731c0-cbc8-445d-8196-57f867f44546" />
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
+<details>
+  <summary><b>1. Opsi Tambah Peserta</b></summary>
 ## 1. Opsi Tambah Peserta
 Dalam opsi tambah peserta, pengguna dapat memasukkan nama peserta beserta nomor teleponnya.
 
