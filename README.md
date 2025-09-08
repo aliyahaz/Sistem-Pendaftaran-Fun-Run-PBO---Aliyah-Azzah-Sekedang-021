@@ -30,7 +30,9 @@ Ketika pengguna ingin mengubah atau mengedit nama maupun nomor telepon sekiranya
 ## 4. Opsi Hapus Peserta
 Data peserta juga dapat dihapus hanya dengan memasukkan nomor 4 dan nomor peserta pada daftar peserta.
 <img width="556" height="133" alt="image" src="https://github.com/user-attachments/assets/4324f0d0-de2a-436f-9d2d-a3aac1c58336" />
+
 Untuk memastikan terhapusnya data, dapat dicek pada opsi 2 yaitu lihat peserta kembali.
+
 <img width="499" height="67" alt="image" src="https://github.com/user-attachments/assets/1834dd79-e023-45aa-846f-d959f115f708" />
 
 ## 5. Opsi Keluar
