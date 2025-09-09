@@ -5,8 +5,13 @@
 # SSISTEM PENDAFTARAN PESERTA FUN RUN (EMINA)
 
 Nama: Aliyah Azzah Sekedang
+
 Kelas: A Sistem Informasi
+
 NIM: 2409116021
+
+## Deskripsi Program
+Program Sistem Pendaftaran Peserta Fun Run adalah sebuah aplikasi sederhana berbasis Java yang dibuat menggunakan aplikasi NetBeans. Program ini bertujuan untuk membantu proses pencatatan dan pengelolaan data peserta lomba lari (fun run) secara digital agar lebih rapi dan efisien. Program ini dibuat menggunakan ArrayList untuk menyimpan data peserta, sehingga data dapat ditambahkan, ditampilkan, diperbarui, maupun dihapus dengan mudah. Seluruh fitur diatur melalui menu berbasis teks, di mana pengguna dapat memilih opsi sesuai kebutuhan.
 
 ## Menu Pendaftaran
 Program ini menampilkan menu utama yang berisi CRUD, yaitu tambah peserta, lihat peserta, ubah peserta, hapus peserta, dan keluar.
