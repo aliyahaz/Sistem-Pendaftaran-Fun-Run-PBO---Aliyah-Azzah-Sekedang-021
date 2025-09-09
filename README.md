@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/aliyahaz/Sistem-Pendaftaran-Fun-Run-PBO---Aliyah-Azzah-Sekedang-021/main/Run%20with%20Jazz%20Party%20(1200%20x%20400%20px)%20(1).png" alt="Fun Run Header" width="800"/>
 </p>
 
-# SSISTEM PENDAFTARAN PESERTA FUN RUN (EMINA)
+# SISTEM PENDAFTARAN PESERTA FUN RUN (EMINA)
 
 Nama: Aliyah Azzah Sekedang
 
@@ -18,8 +18,6 @@ Program ini menampilkan menu utama yang berisi CRUD, yaitu tambah peserta, lihat
 
 <img width="638" height="221" alt="image" src="https://github.com/user-attachments/assets/7cd731c0-cbc8-445d-8196-57f867f44546" />
 
-<details>
-  <summary><b>1. Opsi Tambah Peserta</b></summary>
 ## 1. Opsi Tambah Peserta
 Dalam opsi tambah peserta, pengguna dapat memasukkan nama peserta beserta nomor teleponnya.
 
