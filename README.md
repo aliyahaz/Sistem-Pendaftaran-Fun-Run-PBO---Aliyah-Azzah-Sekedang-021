@@ -11,38 +11,44 @@ Kelas: A Sistem Informasi
 NIM: 2409116021
 
 ## Deskripsi Program
-Program Sistem Pendaftaran Peserta Fun Run adalah sebuah aplikasi sederhana berbasis Java yang dibuat menggunakan aplikasi NetBeans. Program ini bertujuan untuk membantu proses pencatatan dan pengelolaan data peserta lomba lari (fun run) secara digital agar lebih rapi dan efisien. Program ini dibuat menggunakan ArrayList untuk menyimpan data peserta, sehingga data dapat ditambahkan, ditampilkan, diperbarui, maupun dihapus dengan mudah. Seluruh fitur diatur melalui menu berbasis teks, di mana pengguna dapat memilih opsi sesuai kebutuhan.
+Program Sistem Pendaftaran Peserta Fun Run adalah sebuah aplikasi sederhana berbasis Java yang dibuat menggunakan aplikasi NetBeans. Program ini bertujuan untuk membantu proses pencatatan dan pengelolaan data peserta lomba lari (fun run) secara digital agar lebih rapi dan efisien. Program ini dibuat menggunakan ArrayList untuk menyimpan data peserta, sehingga data dapat ditambahkan, ditampilkan, diperbarui, maupun dihapus dengan mudah. Seluruh fitur diatur melalui menu utama berbasis teks, di mana pengguna dapat memilih opsi sesuai kebutuhan.
 
 ## Menu Pendaftaran
-Program ini menampilkan menu utama yang berisi CRUD, yaitu tambah peserta, lihat peserta, ubah peserta, hapus peserta, dan keluar.
+Program ini menampilkan menu utama yang berisi CRUD, yaitu tambah peserta, lihat peserta, edit data peserta, hapus data peserta, dan keluar.
 
-<img width="638" height="221" alt="image" src="https://github.com/user-attachments/assets/7cd731c0-cbc8-445d-8196-57f867f44546" />
+<img width="537" height="211" alt="image" src="https://github.com/user-attachments/assets/0086c8b1-1f6e-414f-80e4-a28dd320530a" />
+
 
 ## 1. Opsi Tambah Peserta
-Dalam opsi tambah peserta, pengguna dapat memasukkan nama peserta beserta nomor teleponnya.
+Dalam opsi tambah peserta, pengguna dapat memasukkan nama lengkap peserta beserta nomor teleponnya. Kemudian, setelah memasukkan data program akan menampilkan pesan "Peserta berhasil ditambahkan!".
 
-<img width="511" height="121" alt="image" src="https://github.com/user-attachments/assets/f491c324-b162-4c3f-9b2d-efc2c3ddcfaf" />
+<img width="264" height="129" alt="image" src="https://github.com/user-attachments/assets/84055b22-9c27-43d4-b5fd-4c1dd54f91d7" />
+
 
 ## 2. Opsi Lihat Peserta
-Setelah pengisian data peserta, data dapat dilihat melalui opsi 2 yaitu lihat peserta.
+Setelah pengisian data peserta, data dapat dilihat melalui opsi 2 yaitu lihat peserta. Maka, program akan menampilkan nama-nama dan nomor telepon peserta yang telah tersimpan.
 
-<img width="570" height="86" alt="image" src="https://github.com/user-attachments/assets/24fba258-34ea-4d67-bc02-ee31c8a2ba33" />
+<img width="545" height="118" alt="image" src="https://github.com/user-attachments/assets/1fd9f35f-a7d6-41ba-a3d6-2f4a259c3fe2" />
 
-## 3. Opsi Ubah Peserta
-Ketika pengguna ingin mengubah atau mengedit nama maupun nomor telepon sekiranya ada salah pengisian dengan memasukkan nomor peserta pada daftar peserta, dapat dikosongkan salah satunya apabila hanya ingin mengisi salah satu saja.
 
-<img width="735" height="188" alt="image" src="https://github.com/user-attachments/assets/a8991954-207b-41a5-acaf-afcc359a193f" />
+## 3. Opsi Edit Data Peserta
+Ketika pengguna ingin mengubah atau mengedit nama maupun nomor telepon sekiranya ada salah pengisian dengan memasukkan nomor peserta sesuai dengan daftar peserta, dapat dikosongkan salah satunya apabila hanya ingin mengisi salah satu saja.
 
-## 4. Opsi Hapus Peserta
-Data peserta juga dapat dihapus hanya dengan memasukkan nomor 4 dan nomor peserta pada daftar peserta.
+<img width="707" height="272" alt="image" src="https://github.com/user-attachments/assets/7370110f-d6b5-4a92-9d69-64315e09b694" />
 
-<img width="556" height="133" alt="image" src="https://github.com/user-attachments/assets/4324f0d0-de2a-436f-9d2d-a3aac1c58336" />
 
-Untuk memastikan terhapusnya data, dapat dicek pada opsi 2 yaitu lihat peserta kembali.
+## 4. Opsi Hapus Data Peserta
+Data peserta juga dapat dihapus hanya dengan memasukkan nomor 4 dan nomor peserta sesuai dengan daftar peserta.
 
-<img width="499" height="67" alt="image" src="https://github.com/user-attachments/assets/1834dd79-e023-45aa-846f-d959f115f708" />
+<img width="575" height="224" alt="image" src="https://github.com/user-attachments/assets/a560bf00-a3d8-48fd-bf1d-4a8fddcb057e" />
+
+
+Untuk memastikan terhapusnya data, dapat dicek kembali pada opsi 2 yaitu lihat daftar peserta.
+
+<img width="543" height="144" alt="image" src="https://github.com/user-attachments/assets/0aaad1a1-2d37-42bc-87f5-c845c7fafb32" />
+
 
 ## 5. Opsi Keluar
 Setelah selesai melakukan pendaftaran, peserta dapat langsung keluar dari program dengan memasukkan angka 5.
 
-<img width="634" height="97" alt="image" src="https://github.com/user-attachments/assets/45533113-f084-4dc3-85a4-306b16b30b08" />
+<img width="576" height="86" alt="image" src="https://github.com/user-attachments/assets/dc7a1e6a-643a-4c43-9944-9b59e6bba932" />
