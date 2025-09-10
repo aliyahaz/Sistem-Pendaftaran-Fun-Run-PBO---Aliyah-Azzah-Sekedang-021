@@ -22,7 +22,7 @@ Program ini menampilkan menu utama yang berisi CRUD, yaitu tambah peserta, lihat
 ## 1. Opsi Tambah Peserta
 Dalam opsi tambah peserta, pengguna dapat memasukkan nama lengkap peserta beserta nomor teleponnya. Kemudian, setelah memasukkan data program akan menampilkan pesan "Peserta berhasil ditambahkan!".
 
-<img width="264" height="129" alt="image" src="https://github.com/user-attachments/assets/84055b22-9c27-43d4-b5fd-4c1dd54f91d7" />
+<img width="461" height="118" alt="image" src="https://github.com/user-attachments/assets/12169453-e0d9-4153-a7aa-8b891a55dfb9" />
 
 
 ## 2. Opsi Lihat Peserta
